@@ -32,3 +32,15 @@ Install Maven environment
  - Right-click on the class and select 'Run'.
  - The automation suite should start executing, and the test results will be displayed in the IDE console.
 
+The system allows running tests on two different browsers: Google Chrome and Mozilla Firefox. To select the browser of your preference, use the following code:
+
+```java
+// Define the default browser as Chrome
+public static Browsers browser = Browsers.CHROME;
+
+// Enum to define the available browsers
+public enum Browsers {
+CHROME,
+FIREFOX
+}
+
