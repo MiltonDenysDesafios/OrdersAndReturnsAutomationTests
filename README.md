@@ -28,7 +28,7 @@ Install Maven environment
 - Open the project in your IDE of choice.
  - Navigate to the 'Runners' package.
  - Open the 'Runner' class.
- - Set an specific tag on IncludeTags if you want to 
+ - Set an specific tag on IncludeTags if you want to for example:   tags = "@OrdersAndReturns_ID17"
  - Right-click on the class and select 'Run'.
  - The automation suite should start executing, and the test results will be displayed in the IDE console.
 
