@@ -6,5 +6,6 @@ public class DriverType {
 
     public enum Browsers{
         CHROME,
+        FIREFOX
     }
 }
